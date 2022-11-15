@@ -15,6 +15,8 @@ import { FormComponent } from './components/form/form.component';
 import { CreateParking2Component } from './components/create-parking2/create-parking2.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ConfirmationDialogComponent } from './components/confirmation-dialog/confirmation-dialog.component';
+import { FAQComponent } from './components/faq/faq.component';
+import { FAQsComponent } from './components/faqs/faqs.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { ConfirmationDialogComponent } from './components/confirmation-dialog/co
     ParkingsComponent,
     FormComponent,
     ConfirmationDialogComponent,
-    CreateParking2Component
+    CreateParking2Component,
+    FAQComponent,
+    FAQsComponent
 
   ],
   imports: [

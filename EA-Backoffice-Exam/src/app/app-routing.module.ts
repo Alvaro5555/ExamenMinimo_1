@@ -5,7 +5,8 @@ import { LoginComponent } from './components/login/login.component';
 import { ParkingsComponent } from './components/parkings/parkings.component';
 import { CreateParking2Component} from './components/create-parking2/create-parking2.component'
 import { FormComponent } from './components/form/form.component';
-
+import { FAQComponent } from './components/faq/faq.component';
+import { FAQsComponent } from './components/faqs/faqs.component';
 const routes: Routes = [
   {
     path: "users",
@@ -26,6 +27,14 @@ const routes: Routes = [
   {
     path: "newuser",
     component: FormComponent
+  },
+  {
+    path: "faq",
+    component: FAQComponent
+  },
+  {
+    path: "faqs",
+    component: FAQsComponent
   }
 ];
 

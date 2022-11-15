@@ -27,4 +27,7 @@ export class AppComponent {
   goToParkingList() {
     this.router.navigate(['/', 'parkings']);
   }
+  goToFAQList(){
+    this.router.navigate(['/', 'faqs'])
+  }
 }

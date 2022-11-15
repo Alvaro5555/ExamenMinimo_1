@@ -1,0 +1,15 @@
+<div class="faq">
+    <mat-card class="card">
+        <mat-card-header>
+            <mat-card-title>{{faq.Question}}</mat-card-title>
+            </mat-card-header>
+        <mat-card-content>Ansewr: {{faq.Ansewr}}</mat-card-content>
+        <mat-card-content>Score of Question: {{faq.points}}</mat-card-content>
+        <mat-card-content>Date: {{faq.date}}</mat-card-content>
+        <mat-card-content>Date: {{faq.user}}</mat-card-content>
+        <mat-card-actions><button mat-raised-button color="warn" (click)="delete()">delete</button></mat-card-actions>
+            <input name="newQuestion" type="text" id="newQuestion" placeholder="new Question" #newQuestion>
+            <input name="newAnsewr" type="text" id="newAnsewr" placeholder="new Ansewr" #newAnsewr>
+        <mat-card-actions><button mat-raised-button color="warn" (click)="update(newQuestion.value, newAnsewr.value)">update</button></mat-card-actions>
+    </mat-card>
+</div>

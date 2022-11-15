@@ -1,0 +1,7 @@
+<div class="faqs">
+    <app-faq
+    (deleteFAQ)="deleteFAQ($event)"
+    (updateFAQ)="updateOneFAQ($event)"
+    [faq]="faq" 
+    *ngFor="let faq of FAQs"></app-faq>
+</div>
